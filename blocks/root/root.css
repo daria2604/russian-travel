@@ -1,0 +1,16 @@
+.root {
+  margin: auto;
+  padding: 0 48px;
+}
+
+@media (max-width: 768px) {
+  .root {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .root {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.intro {
+  margin: auto;
+  padding-left: 148px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding-left: 24px;
+}

@@ -1,0 +1,12 @@
+.place__brief {
+  grid-area: brief;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media (max-width: 425px) {
+  .place__brief {
+    padding: 0 16px;
+  }
+}

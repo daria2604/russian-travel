@@ -1,0 +1,25 @@
+.lead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 56px 148px 92px 148px;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    padding: 48px 48px 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    padding: 48px 0 88px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

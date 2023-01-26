@@ -1,0 +1,13 @@
+.cover__background {
+  filter: opacity(0.7);
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.cover__background:hover,
+.cover__container:hover ~ .cover__background {
+  filter: opacity(0.2);
+  z-index: 1;
+}
