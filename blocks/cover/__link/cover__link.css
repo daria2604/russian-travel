@@ -1,4 +1,35 @@
 .cover__link {
   color: #FFF;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 32px;
+  flex-direction: column;
+  padding: 245px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, .8);
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__link {
+    padding: 33px 0;
+  }
 }

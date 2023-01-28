@@ -7,6 +7,12 @@
   max-width: 360px;
 }
 
+@media (max-width: 520px) {
+  .cover__subtitle {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 425px) {
   .cover__subtitle {
     font-size: 14px;

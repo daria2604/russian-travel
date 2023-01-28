@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+@media (max-width: 520px) {
+  .lead__subtitle {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 425px) {
   .lead__subtitle {
     font-size: 16px;

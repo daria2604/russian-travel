@@ -2,19 +2,13 @@
   padding: 92px 48px;
 }
 
-@media (max-width: 1024px) {
-  .gallery {
-    padding: 92px 48px;
-  }
-}
-
 @media (max-width: 768px) {
   .gallery {
     padding: 88px 24px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 520px) {
   .gallery {
     padding: 64px 16px;
   }
